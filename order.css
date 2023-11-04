@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    /* background: rgb(129,154,157);
+    background: linear-gradient(135deg, rgba(129,154,157,1) 0%, rgba(47,52,59,1) 100%); */
+    background: rgb(184,205,208);
+background: linear-gradient(135deg, rgba(184,205,208,1) 0%, rgba(47,52,59,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 550px;
+    width: 380px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+
+}
+.box img{
+    height: 35%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.textbox{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 20px;
+    width: 85%;
+    text-align: center;
+
+
+}
+.amountbox{
+    height: 10%;
+    width: 88%;
+    background-color: rgb(116, 113, 113);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    
+}
+.leftbox{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#img{
+    height: 18%;
+    width: 18%;
+}
+.rightbox a{
+    font-weight: bold;
+    margin-right:50px;
+}
+#paymentbox{
+    height: 8%;
+    width: 88%;
+    border-radius: 10px;
+    background-color: rgb(63, 60, 60);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    font-size: large;
+    color: white;
+   
+}
+.box a{
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
